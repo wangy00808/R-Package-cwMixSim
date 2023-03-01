@@ -1,0 +1,24 @@
+Package: cwMixSim
+Version: 0.0.1
+Date: 2023-02-13
+Title: Simulating skewed and cluster-weighted data for studying
+        performance of clustering algorithms
+Description: The utility of this package includes simulating nonelliptical clusters with a desired level of overlap among components (clustering complexity). The algorithm of simulating clusters from the Gaussian mixture is extended to transformation, cluster-weighted, and skewed cluster-weighted models. It provides more settings that the state-of-the-art clustering techniques need to be tested on. Besides that, the package includes the simulation of the data from generated models as well as the construction of contour plots for simulated two-dimensional mixtures. 
+Authors@R: c(person("Yang", "Wang", role =  c("aut", "cre"),
+                       email = "wangy4@cofc.edu"),
+             person("Volodymyr", "Melnykov", role = c("aut", "ctb")),
+             person("Yana", "Melnykov", role = c("ctb"))
+            )
+Depends: R (>= 3.5.0)
+Imports: stats, parallel, MixSim, graphics, mvtnorm, psych
+License: GPL (>= 2)
+Repository: CRAN
+LazyLoad: yes
+NeedsCompilation: yes
+Packaged: 2023-02-17 15:43:26 UTC; root
+Author: 
+  Yang Wang  [aut, cre],
+  Volodymyr Melnykov [aut, ctb],
+  Yana Melnykov [ctb]
+Maintainer: Yang Wang <wangy4@cofc.edu>
+Date/Publication: 2022-11-24 20:09:41 UTC
